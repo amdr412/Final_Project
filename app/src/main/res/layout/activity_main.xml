@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.cybereye_community.blog.MainActivity">
+
+       <ImageView
+           android:id="@+id/buku1"
+           android:padding="5dp"
+           android:scaleType="fitXY"
+            android:src="@drawable/buku1"
+           android:layout_width="120dp"
+           android:layout_height="160dp" />
+       <LinearLayout
+           android:id="@+id/layout1"
+           android:layout_toRightOf="@id/buku1"
+           android:layout_marginLeft="5dp"
+           android:orientation="vertical"
+           android:layout_width="match_parent"
+           android:layout_height="160dp">
+           <TextView
+               android:id="@+id/judul_1"
+               android:textSize="20sp"
+               android:textStyle="bold"
+               android:text="#Dietkenyang Dengan Cooking Hypnotherapy"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content" />
+           <TextView
+               android:textSize="16sp"
+               android:id="@+id/tgl_1"
+               android:text="17 Mei 2017"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content" />
+           <TextView
+               android:id="@+id/pengarang_1"
+               android:text="Edi Kurniawan"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content" />
+           <TextView
+               android:id="@+id/harga_1"
+               android:textSize="16sp"
+               android:text="75000"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content" />
+           <Button
+               android:id="@+id/beli1"
+               android:text="Beli"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content" />
+       </LinearLayout>
+
+
+        <ImageView
+            android:layout_below="@id/buku1"
+            android:id="@+id/buku2"
+            android:padding="5dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/buku2"
+            android:layout_width="120dp"
+            android:layout_height="160dp" />
+        <LinearLayout
+            android:layout_below="@id/layout1"
+            android:layout_toRightOf="@id/buku2"
+            android:layout_marginLeft="5dp"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="160dp">
+            <TextView
+                android:id="@+id/judul_2"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:text="Aku Naura"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:id="@+id/tgl_2"
+                android:textSize="16sp"
+                android:text="14 Mei 2017"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:id="@+id/pengarang_2"
+                android:text="Ade Rukmana"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:id="@+id/harga_2"
+                android:textSize="16sp"
+                android:text="85000"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+            <Button
+                android:id="@+id/beli2"
+                android:text="Beli"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+
+</RelativeLayout>
